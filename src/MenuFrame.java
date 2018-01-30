@@ -1,4 +1,5 @@
 
+import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,7 +25,7 @@ public class MenuFrame extends JFrame {
 
         canvas = new CanvasPanel();
         Container contentPane = getContentPane();
-        contentPane.add(canvas, "Center");
+        contentPane.add(canvas, BorderLayout.CENTER);
 
         // construct menu
 
